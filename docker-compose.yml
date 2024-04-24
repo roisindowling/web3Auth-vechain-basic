@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  rpc-proxy:
+    container_name: rpc-proxy
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    environment:
+      - VECHAIN_NODE=${VECHAIN_NODE}
+    ports:
+      - "8545:8545"
