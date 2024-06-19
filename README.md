@@ -8,7 +8,7 @@
 </p>
 
 <h1 align="center">
-  Web3Auth (`@web3auth/modal`) x vechain Example
+  Web3Auth (@web3auth/modal) x vechain Example
 </h1>
 
 <p align="center">
